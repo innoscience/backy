@@ -58,4 +58,6 @@ The options below can be combined as required.
 
 ## License
 
-Licensed under MIT.
+Licensed under the MIT License (MIT)
+
+Copyright (c) 2014 Brandon Fenning
