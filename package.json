@@ -2,7 +2,7 @@
     "name": "backy",
     "author": "Brandon Fenning",
     "description": "Backs up project files, excludes based on .gitignore using Tar and GZip",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "license": "BSD",
     "repository": {
         "type": "git",
