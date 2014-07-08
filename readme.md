@@ -6,7 +6,7 @@ This is a simple node package to backup your project's files to a `.tar.gz` arch
 
 > Note: the tar utility must be available on the host OS in additon to Node / NPM.
 
-	sudo npm install backy -G
+	sudo npm install backy -g
 
 ## Usage
 
