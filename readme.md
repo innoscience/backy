@@ -35,10 +35,21 @@ The options below can be combined as required.
 
 	backy archive-name.tar.gz
 
+#### Pass paramaters to Tar command via json array
+
+	backy [ --config=[json array] | -c=[json array] ]
+
+Example:
+
+	backy -c='["--no-recursion", "--exclude-cache"]'
+
+Use escape quotes for complicated parameters:
+
+	backy -c='[ "--exclude-cache", "--exclude-tag=\".sass-sache\""]'
+
 #### Disable Gzip
 
 	backy [ --nogzip | -nz ]
-	
 
 #### Force Overwriting of Backup Archive
 
@@ -51,10 +62,6 @@ The options below can be combined as required.
 #### Get version
 
 	backy [ -- version | -v ]
-
-## Todo
-
-- Add option to pass arguments to Tar
 
 ## License
 
